@@ -7,7 +7,7 @@ var myAppBarColor = Colors.grey[900];
 
 var myAppBar = AppBar(
   backgroundColor: myAppBarColor,
-  title: Text("Not HouseSigma"), // replace this with logo image
+  title: Text("House App"), // replace this with logo image
 
   actions: [
     Padding(
@@ -50,7 +50,7 @@ class MyAppBarExpanded extends StatelessWidget with PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       backgroundColor: myAppBarColor,
-      title: Text("Not HouseSigma"), // replace this with logo image
+      title: Text("House App"), // replace this with logo image
 
       actions: [
         ElevatedButton.icon(
